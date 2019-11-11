@@ -1,0 +1,41 @@
+html,
+body {
+    color: #555;
+    font-family: 'Cera Pro', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+* + * {
+    margin-top: 15px;
+}
+
+main {
+    margin: 3rem auto;
+    max-width: 90vw;
+    width: 50ch;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 20px 10px;
+    border: 1px solid #666;
+    width: 100%;
+    max-width: 280px;
+    font-family: inherit;
+    display: block;
+}
+
+button {
+    font-family: inherit;
+    border: 1px solid #333;
+    background: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: .85rem 2.5rem;
+    transform: translateY(-8px);
+}
+
