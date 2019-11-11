@@ -4,6 +4,7 @@ body {
     font-family: 'Cera Pro', sans-serif;
     font-size: 18px;
     margin: 0;
+    background: #f4f4f4;
 }
 
 * + * {
@@ -14,6 +15,8 @@ main {
     margin: 3rem auto;
     max-width: 90vw;
     width: 50ch;
+    background: #fff;
+    border: 1px solid #eee;
 }
 
 h1 {
